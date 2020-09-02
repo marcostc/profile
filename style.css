@@ -1,0 +1,62 @@
+p {
+  font-family: arial;
+  font-size: 16px;
+}
+
+h1 {
+  color:#fced6a;
+  font-weight: bold;
+  background-color: #1039a8;
+  font-family: Times;
+  letter-spacing: 4px;
+}
+.container {
+  text-align: center;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+
+.circle_img {
+  border-radius: 50%;
+  border: 1px solid lightgrey;
+  margin: 10px;
+  background-color: #f8fcbd;
+  padding: 10px;
+}
+
+.btn-green {
+  background-color: #108c48;
+  color: white;
+  font-family: arial;
+  font-weight: bold;
+  bold: true;
+  padding: 15px 20px;
+  text-decoration: none;
+  border: 3px solid lightgrey;
+  border-radius: 3px;
+}
+.space_around {
+  margin: 30px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
